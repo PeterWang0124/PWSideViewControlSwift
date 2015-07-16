@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DFE8170A-9376-4317-9167-A1B8DBEA2A0C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PWSideViewControlSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC8C9C46D780781EE3B2BD593458B389B6BE36FD</key>
+		<string>github.com:PeterWang0124/PWSideViewControlSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PWSideViewControlSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC8C9C46D780781EE3B2BD593458B389B6BE36FD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:PeterWang0124/PWSideViewControlSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC8C9C46D780781EE3B2BD593458B389B6BE36FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC8C9C46D780781EE3B2BD593458B389B6BE36FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PWSideViewControlSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
