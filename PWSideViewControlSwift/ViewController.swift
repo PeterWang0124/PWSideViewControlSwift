@@ -8,18 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITabBarController {
 
+  // MARK: - Private variables
+  private var sideControl: PWSideViewControlSwift?
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    let tableVC = UITableViewController(style: .Plain)
+    tableVC.view.backgroundColor = .greenColor()
+    self.sideControl = PWSideViewControlSwift(embeddedViewController: self, leftViewController: tableVC)
+    
+    self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left", style: .Plain, target: self, action: "leftTabBarButtonTapped")
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  // MARK: - Actions
+  func leftTabBarButtonTapped() {
+    if self.sideControl?.leftSideViewHidden ?? false {
+      self.sideControl?.showLeftView()
+    } else {
+      self.sideControl?.hideLeftView()
+    }
   }
-
-
 }
 
