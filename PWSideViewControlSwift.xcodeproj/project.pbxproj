@@ -14,6 +14,8 @@
 		92DAC35A1B573DBE0028A957 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DAC3581B573DBE0028A957 /* LaunchScreen.xib */; };
 		92DAC3661B573DBE0028A957 /* PWSideViewControlSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAC3651B573DBE0028A957 /* PWSideViewControlSwiftTests.swift */; };
 		92DAC3711B573EA00028A957 /* PWSideViewControlSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAC3701B573EA00028A957 /* PWSideViewControlSwift.swift */; };
+		92DAC3741B57BB330028A957 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAC3721B57BB330028A957 /* LeftSideViewController.swift */; };
+		92DAC3751B57BB330028A957 /* LeftSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DAC3731B57BB330028A957 /* LeftSideViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		92DAC3641B573DBE0028A957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92DAC3651B573DBE0028A957 /* PWSideViewControlSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWSideViewControlSwiftTests.swift; sourceTree = "<group>"; };
 		92DAC3701B573EA00028A957 /* PWSideViewControlSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWSideViewControlSwift.swift; sourceTree = "<group>"; };
+		92DAC3721B57BB330028A957 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		92DAC3731B57BB330028A957 /* LeftSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftSideViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			children = (
 				92DAC34F1B573DBE0028A957 /* AppDelegate.swift */,
 				92DAC3511B573DBE0028A957 /* ViewController.swift */,
+				92DAC3721B57BB330028A957 /* LeftSideViewController.swift */,
+				92DAC3731B57BB330028A957 /* LeftSideViewController.xib */,
 				92DAC3531B573DBE0028A957 /* Main.storyboard */,
 				92DAC3561B573DBE0028A957 /* Images.xcassets */,
 				92DAC3581B573DBE0028A957 /* LaunchScreen.xib */,
@@ -205,6 +211,7 @@
 			files = (
 				92DAC3551B573DBE0028A957 /* Main.storyboard in Resources */,
 				92DAC35A1B573DBE0028A957 /* LaunchScreen.xib in Resources */,
+				92DAC3751B57BB330028A957 /* LeftSideViewController.xib in Resources */,
 				92DAC3571B573DBE0028A957 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +232,7 @@
 			files = (
 				92DAC3521B573DBE0028A957 /* ViewController.swift in Sources */,
 				92DAC3711B573EA00028A957 /* PWSideViewControlSwift.swift in Sources */,
+				92DAC3741B57BB330028A957 /* LeftSideViewController.swift in Sources */,
 				92DAC3501B573DBE0028A957 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,9 +360,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PWSideViewControlSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0f5dd150-8bce-47b4-b7c8-8cd410bf657b";
 			};
 			name = Debug;
 		};
@@ -362,9 +373,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PWSideViewControlSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0f5dd150-8bce-47b4-b7c8-8cd410bf657b";
 			};
 			name = Release;
 		};

@@ -16,9 +16,10 @@ class ViewController: UITabBarController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let tableVC = UITableViewController(style: .Plain)
-    tableVC.view.backgroundColor = .greenColor()
+    let tableVC = LeftSideViewController()
     self.sideControl = PWSideViewControlSwift(embeddedViewController: self, leftViewController: tableVC)
+    self.sideControl!.coverMode = .CoverNavigationBarView
+    self.sideControl!.maskViewDidTapped = maskViewDidTapped
     
     self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left", style: .Plain, target: self, action: "leftTabBarButtonTapped")
   }
@@ -26,10 +27,14 @@ class ViewController: UITabBarController {
   // MARK: - Actions
   func leftTabBarButtonTapped() {
     if self.sideControl?.leftSideViewHidden ?? false {
-      self.sideControl?.showLeftView()
+      self.sideControl?.showLeftView(duration: 0.3, animated: true)
     } else {
-      self.sideControl?.hideLeftView()
+      self.sideControl?.hideLeftView(duration: 0.3, animated: true)
     }
+  }
+  
+  func maskViewDidTapped() {
+    self.sideControl?.hideLeftView(duration: 0.3, animated: true)
   }
 }
 
