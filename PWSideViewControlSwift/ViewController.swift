@@ -16,8 +16,8 @@ class ViewController: UITabBarController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let tableVC = LeftSideViewController()
-    self.sideControl = PWSideViewControlSwift(embeddedViewController: self, leftViewController: tableVC)
+    let leftSideVC = LeftSideViewController()
+    self.sideControl = PWSideViewControlSwift(embeddedViewController: self, leftViewController: leftSideVC)
     self.sideControl!.coverMode = .CoverNavigationBarView
     self.sideControl!.maskViewDidTapped = maskViewDidTapped
     
