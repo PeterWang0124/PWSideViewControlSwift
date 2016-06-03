@@ -12,21 +12,10 @@
 		92DAC3551B573DBE0028A957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DAC3531B573DBE0028A957 /* Main.storyboard */; };
 		92DAC3571B573DBE0028A957 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DAC3561B573DBE0028A957 /* Images.xcassets */; };
 		92DAC35A1B573DBE0028A957 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DAC3581B573DBE0028A957 /* LaunchScreen.xib */; };
-		92DAC3661B573DBE0028A957 /* PWSideViewControlSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAC3651B573DBE0028A957 /* PWSideViewControlSwiftTests.swift */; };
 		92DAC3711B573EA00028A957 /* PWSideViewControlSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAC3701B573EA00028A957 /* PWSideViewControlSwift.swift */; };
 		92DAC3741B57BB330028A957 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAC3721B57BB330028A957 /* LeftSideViewController.swift */; };
 		92DAC3751B57BB330028A957 /* LeftSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DAC3731B57BB330028A957 /* LeftSideViewController.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		92DAC3601B573DBE0028A957 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92DAC3421B573DBE0028A957 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92DAC3491B573DBE0028A957;
-			remoteInfo = PWSideViewControlSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		92DAC34A1B573DBE0028A957 /* PWSideViewControlSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWSideViewControlSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,9 +25,6 @@
 		92DAC3541B573DBE0028A957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92DAC3561B573DBE0028A957 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92DAC3591B573DBE0028A957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		92DAC35F1B573DBE0028A957 /* PWSideViewControlSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWSideViewControlSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92DAC3641B573DBE0028A957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92DAC3651B573DBE0028A957 /* PWSideViewControlSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWSideViewControlSwiftTests.swift; sourceTree = "<group>"; };
 		92DAC3701B573EA00028A957 /* PWSideViewControlSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWSideViewControlSwift.swift; sourceTree = "<group>"; };
 		92DAC3721B57BB330028A957 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
 		92DAC3731B57BB330028A957 /* LeftSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftSideViewController.xib; sourceTree = "<group>"; };
@@ -46,13 +32,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		92DAC3471B573DBE0028A957 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92DAC35C1B573DBE0028A957 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +46,6 @@
 			children = (
 				92DAC36F1B573E610028A957 /* Source */,
 				92DAC34C1B573DBE0028A957 /* PWSideViewControlSwift */,
-				92DAC3621B573DBE0028A957 /* PWSideViewControlSwiftTests */,
 				92DAC34B1B573DBE0028A957 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				92DAC34A1B573DBE0028A957 /* PWSideViewControlSwift.app */,
-				92DAC35F1B573DBE0028A957 /* PWSideViewControlSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,23 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				92DAC34E1B573DBE0028A957 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		92DAC3621B573DBE0028A957 /* PWSideViewControlSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				92DAC3651B573DBE0028A957 /* PWSideViewControlSwiftTests.swift */,
-				92DAC3631B573DBE0028A957 /* Supporting Files */,
-			);
-			path = PWSideViewControlSwiftTests;
-			sourceTree = "<group>";
-		};
-		92DAC3631B573DBE0028A957 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				92DAC3641B573DBE0028A957 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,39 +109,19 @@
 			productReference = 92DAC34A1B573DBE0028A957 /* PWSideViewControlSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92DAC35E1B573DBE0028A957 /* PWSideViewControlSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92DAC36C1B573DBE0028A957 /* Build configuration list for PBXNativeTarget "PWSideViewControlSwiftTests" */;
-			buildPhases = (
-				92DAC35B1B573DBE0028A957 /* Sources */,
-				92DAC35C1B573DBE0028A957 /* Frameworks */,
-				92DAC35D1B573DBE0028A957 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92DAC3611B573DBE0028A957 /* PBXTargetDependency */,
-			);
-			name = PWSideViewControlSwiftTests;
-			productName = PWSideViewControlSwiftTests;
-			productReference = 92DAC35F1B573DBE0028A957 /* PWSideViewControlSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		92DAC3421B573DBE0028A957 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = PeterWang;
 				TargetAttributes = {
 					92DAC3491B573DBE0028A957 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					92DAC35E1B573DBE0028A957 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 92DAC3491B573DBE0028A957;
 					};
 				};
 			};
@@ -199,7 +139,6 @@
 			projectRoot = "";
 			targets = (
 				92DAC3491B573DBE0028A957 /* PWSideViewControlSwift */,
-				92DAC35E1B573DBE0028A957 /* PWSideViewControlSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,13 +152,6 @@
 				92DAC35A1B573DBE0028A957 /* LaunchScreen.xib in Resources */,
 				92DAC3751B57BB330028A957 /* LeftSideViewController.xib in Resources */,
 				92DAC3571B573DBE0028A957 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92DAC35D1B573DBE0028A957 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,23 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92DAC35B1B573DBE0028A957 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92DAC3661B573DBE0028A957 /* PWSideViewControlSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		92DAC3611B573DBE0028A957 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92DAC3491B573DBE0028A957 /* PWSideViewControlSwift */;
-			targetProxy = 92DAC3601B573DBE0028A957 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		92DAC3531B573DBE0028A957 /* Main.storyboard */ = {
@@ -360,12 +276,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zanjun Wang (E85J8985W2)";
 				INFOPLIST_FILE = PWSideViewControlSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0f5dd150-8bce-47b4-b7c8-8cd410bf657b";
+				PROVISIONING_PROFILE = "bb79e1a9-83b4-4f2d-80c2-560233f4ae55";
 			};
 			name = Debug;
 		};
@@ -373,46 +289,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zanjun Wang (E85J8985W2)";
 				INFOPLIST_FILE = PWSideViewControlSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0f5dd150-8bce-47b4-b7c8-8cd410bf657b";
-			};
-			name = Release;
-		};
-		92DAC36D1B573DBE0028A957 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PWSideViewControlSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PWSideViewControlSwift.app/PWSideViewControlSwift";
-			};
-			name = Debug;
-		};
-		92DAC36E1B573DBE0028A957 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PWSideViewControlSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PWSideViewControlSwift.app/PWSideViewControlSwift";
+				PROVISIONING_PROFILE = "bb79e1a9-83b4-4f2d-80c2-560233f4ae55";
 			};
 			name = Release;
 		};
@@ -435,14 +317,7 @@
 				92DAC36B1B573DBE0028A957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		92DAC36C1B573DBE0028A957 /* Build configuration list for PBXNativeTarget "PWSideViewControlSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92DAC36D1B573DBE0028A957 /* Debug */,
-				92DAC36E1B573DBE0028A957 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
